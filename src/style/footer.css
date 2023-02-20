@@ -1,0 +1,24 @@
+.footer-container{
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.footer-line{
+    border: 1px solid gray;
+    margin: 1rem 0px;
+}
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+    align-items: center;
+}
+
+
+.footer-box1{
+    display: flex;
+}
+
+.footer-box1 a{
+    margin: 15px 15px;
+}

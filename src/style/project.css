@@ -1,0 +1,47 @@
+.project-main{
+    width: 90%;
+    margin: 0px auto;
+    margin-top : 3rem;
+}
+
+.project-headline {
+    font-size: 2rem;
+    margin: 1rem 3rem;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+
+.project-box {
+    display: flex;
+    width: 20%;
+    margin: 0rem 5rem;
+}
+
+
+.project-box {
+    display: inline-block;
+    width: 30%;
+}
+
+.project-box h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0rem;
+}
+
+.project-box p {
+    font-size: 1rem;
+    margin: 1rem 0rem;
+}
+
+.project-box code {
+    background-color: #CDDEFF;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}

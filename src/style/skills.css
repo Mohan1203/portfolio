@@ -1,0 +1,40 @@
+.main{
+  width: 90%;
+  margin: auto;
+}
+
+.skill-name{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+.skill-heading{
+    margin-left:3rem;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex:50%;
+}
+
+.indivisual{
+    display: flex;
+    flex-direction: row;
+    margin:1rem 3rem;
+    
+}
+
+.box-2{
+    margin: 0rem 1.5rem;
+}
+
+.box-2 h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-right: 1rem;
+}
