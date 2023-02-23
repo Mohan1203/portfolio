@@ -1,5 +1,5 @@
 .project-main{
-    width: 90%;
+    width: 95%;
     margin: 0px auto;
     margin-top : 3rem;
 }
@@ -44,4 +44,29 @@
     padding: 10px 20px;
     border-radius: 10px;
 
+}
+
+@media screen and (max-width: 768px) {
+    .project-main{
+        width: 100%;
+        margin: 0px auto;
+        margin-top : 3rem;
+    }
+    .project-box {
+        width: 50%;
+        margin: 0rem 2.5rem;
+    }
+}
+    
+@media screen and (min-width:320px) and (max-width:425px){
+    .project-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .project-content{
+        border-bottom: 2px solid grey;
+    }
 }

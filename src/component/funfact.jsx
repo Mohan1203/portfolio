@@ -8,8 +8,8 @@ import { IoLanguage } from "react-icons/io5";
 function Funfact() {
     return (
         <div className="funfact-container">
+            <h1 className="funfact-heading">Fun fact</h1>
             <div className="funfact-box">
-                <h1>Fun fact</h1>
                 <div className="funfact-boxes">
                     <div className="funfact-content">
                         <span><BsSmartwatch size={50} style={{ color: "#0081C9" }} /></span>

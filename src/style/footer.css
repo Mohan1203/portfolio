@@ -22,3 +22,28 @@
 .footer-box1 a{
     margin: 15px 15px;
 }
+
+.footer-icons:hover{
+   position: relative;
+    top: -5px;
+}
+
+@media  screen and (max-width: 768px){
+    .footer-container{
+        width: 90%;
+        margin: 1rem auto;
+    }
+}
+
+@media  screen and (min-width:320px) and (max-width:425px) {
+    .footer-container{
+        width: 100%;
+        margin: 1rem auto;
+    }
+    
+    .footer-box{
+        display:flex;
+        flex-direction: column;
+    }
+}
+    
