@@ -24,7 +24,7 @@ function Header() {
                     <Link to={"/"}><li className="list-items">Home</li></Link>
                     <Link to={"/about"} className="link"><li className="list-items">About me</li></Link>
                     <Link to={"/contactme"}><li className="list-items">ContactMe</li></Link>
-                    <Link><li className="list-items">Blog</li></Link>
+                    <Link to={"/"}><li className="list-items">Blog</li></Link>
                 </ul>
             
             </div>
@@ -35,7 +35,7 @@ function Header() {
                          <div className="menu-items"></div>
                          <div className="menu-items"></div>
                     </button>
-                      {navOpen?<div className="flex">
+                      {navOpen?<div>
                             <Canvas closeMenu={closeMenu}/>
                             
                       </div>:""}
